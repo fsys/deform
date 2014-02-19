@@ -335,20 +335,20 @@ class MoneyInputWidget(Widget):
     def deserialize(self, field, pstruct):
         if pstruct is null:
             return null
-		if isinstance(pstruct, string_types):
-			pstruct = pstruct.strip()
-			thousands = ','
-			# Oh jquery-maskMoney, you submit the thousands separator in the
-			# control value.  I'm no genius, but IMO that's not very smart.  But
-			# then again you also don't inject the thousands separator into the
-			# value attached to the control when editing an existing value.
-			# Because it's obvious we should have *both* the server and the
-			# client doing this bullshit on both serialization and
-			# deserialization.  I understand completely, you're just a client
-			# library, IT'S NO PROBLEM.  LET ME HELP YOU.
-			if self.options:
-				thousands = dict(self.options).get('thousands', ',')
-			pstruct = pstruct.replace(thousands, '')
+        if isinstance(pstruct, string_types):
+            pstruct = pstruct.strip()
+            thousands = ','
+            # Oh jquery-maskMoney, you submit the thousands separator in the
+            # control value.  I'm no genius, but IMO that's not very smart.  But
+            # then again you also don't inject the thousands separator into the
+            # value attached to the control when editing an existing value.
+            # Because it's obvious we should have *both* the server and the
+            # client doing this bullshit on both serialization and
+            # deserialization.  I understand completely, you're just a client
+            # library, IT'S NO PROBLEM.  LET ME HELP YOU.
+            if self.options:
+                thousands = dict(self.options).get('thousands', ',')
+            pstruct = pstruct.replace(thousands, '')
         if not pstruct:
             return null
         return pstruct
