@@ -368,8 +368,6 @@ class MoneyInputWidget(Widget):
             if self.options:
                 thousands = dict(self.options).get('thousands', ',')
             pstruct = pstruct.replace(thousands, '')
-        if not pstruct:
-            return null
         return pstruct
 
 class AutocompleteInputWidget(Widget):
