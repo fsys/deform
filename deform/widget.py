@@ -550,11 +550,11 @@ class DateInputWidget(Widget):
         if pstruct in ('', null):
             return null
         try:
-			date = pstruct[field.name]
-			date_submit = pstruct.get('date_submit', '')
-		except Exception as e:
-			date = pstruct
-			date_submit = None			
+            date = pstruct[field.name]
+            date_submit = pstruct.get('date_submit', '')
+        except Exception as e:
+            date = pstruct
+            date_submit = None			
         return date_submit or date
 
 
