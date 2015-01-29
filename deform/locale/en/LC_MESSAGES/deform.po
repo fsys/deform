@@ -8,112 +8,113 @@ msgstr ""
 "Project-Id-Version: deform 0.9.3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2012-03-30 16:17+0200\n"
-"PO-Revision-Date: 2011-11-08 15:54+0100\n"
+"PO-Revision-Date: 2015-01-29 10:27+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: deform/schema.py:100
 msgid "${value} is not a dictionary"
-msgstr "${value} n'est pas un dictionnaire"
+msgstr "${value} is not a dictionary"
 
 #: deform/schema.py:107
 msgid "${value} has no ${key} key"
-msgstr "${value} n'a pas de clé ${key}"
+msgstr "${value} has no ${key} key"
 
 #: deform/schema.py:146
 msgid "${value} is not iterable"
-msgstr "${value} n'est pas itérabble"
+msgstr "${value} is not iterable"
 
 #: deform/schema.py:150
 msgid "Required"
-msgstr "Requis"
+msgstr "Required"
 
 #: deform/widget.py:779
 msgid "Fields did not match"
-msgstr "Les champs ne correspondent pas"
+msgstr "Fields did not match"
 
 #: deform/widget.py:780
 msgid "Value"
-msgstr "Valeur"
+msgstr "Value"
 
 #: deform/widget.py:781
 msgid "Confirm Value"
-msgstr "Confirmer la valeur"
+msgstr "Confirm Value"
 
 #: deform/widget.py:829
 msgid "Password did not match confirm"
-msgstr "Le mot de passe ne correspond pas à sa confirmation"
+msgstr "Password did not match confirm"
 
 #: deform/widget.py:980
 msgid "Add ${subitem_title}"
-msgstr "Ajouter ${subitem_title}"
+msgstr "Add ${subitem_title}"
 
 #: deform/widget.py:1239
 msgid "Incomplete date"
-msgstr "Date incomplète"
+msgstr "Incomplete date"
 
 #: deform/templates/checked_password.pt:5
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Password"
 
 #: deform/templates/checked_password.pt:10
 msgid "Confirm Password"
-msgstr "Confirmer le mot de passe"
+msgstr "Confirm Password"
 
 #: deform/templates/dateparts.pt:5 deform/templates/readonly/dateparts.pt:2
 msgid "Year"
-msgstr "Année"
+msgstr "Year"
 
 #: deform/templates/dateparts.pt:12 deform/templates/readonly/dateparts.pt:4
 msgid "Month"
-msgstr "Mois"
+msgstr "Month"
 
 #: deform/templates/dateparts.pt:19 deform/templates/readonly/dateparts.pt:6
 msgid "Day"
-msgstr "Jour"
+msgstr "Day"
 
 #: deform/templates/form.pt:19
 msgid "There was a problem with your submission"
-msgstr "Il y a eu un problème avec votre requete"
+msgstr "There was a problem with your submission"
 
 #: deform/templates/form.pt:21
 msgid "Errors have been highlighted below"
-msgstr "Les erreurs ont été mise en évidence ci dessous"
+msgstr "Errors have been highlighted below"
 
 #: deform/templates/mapping.pt:6
 msgid "There was a problem with this section"
-msgstr "Il y a eu un problème avec cette section"
+msgstr "There was a problem with this section"
 
 #. Default: en
 #: deform/templates/richtext.pt:15
 msgid "language-code"
-msgstr "fr"
+msgstr "language-code"
 
 #: deform/templates/sequence_item.pt:6
 msgid "Remove"
-msgstr "Enlever"
+msgstr "Remove"
 
 #: deform/templates/readonly/checked_password.pt:2
 #: deform/templates/readonly/password.pt:2
 msgid "Password not displayed."
-msgstr "Password non affiché."
+msgstr "Password not displayed."
 
 #: deform/templates/readonly/file_upload.pt:7
 msgid "Read-only."
-msgstr "Lecture seule."
+msgstr "Read-only."
 
 #: deform/templates/readonly/radio_choice.pt:4
 #: deform/templates/readonly/select.pt:3
 msgid "Selected"
-msgstr "Selectionné"
+msgstr "Selected"
 
 #: deform/templates/readonly/radio_choice.pt:5
 #: deform/templates/readonly/select.pt:4
 msgid "Not Selected"
-msgstr "Pas selectionné"
-
+msgstr "Not Selected"
