@@ -1,3 +1,3 @@
-#from translationstring import TranslationStringFactory
-#_ = TranslationStringFactory('deform')
-from app.plugins.i18n import _
+from translationstring import TranslationStringFactory
+_ = TranslationStringFactory('deform')
+
